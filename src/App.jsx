@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
+import Formulario from './components/Formulario'
 import ImagenCriptos from './img/imagen-criptos.png'
-
 const Contenedor = styled.div`
   max-width: 900px;
   margin: 0 auto;
@@ -44,7 +44,11 @@ function App() {
           src={ImagenCriptos}
           alt= "Imagenes Criptomonedas" 
       />
-      <Heading>Desde App</Heading>
+
+      <div >
+        <Heading>Desde App</Heading>
+        <Formulario />
+      </div>
     </Contenedor>
   )
 }
